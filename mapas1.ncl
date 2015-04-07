@@ -6,7 +6,7 @@ begin
 
   res                             = True
   res@mpFillOn                    = False        ; turn off gray fill
-  res@mpOutlineBoundarySets       = "National"   ; turn on country boundaries
+  res@mpOutlineBoundarySets       = "AllBoundaries"   ; turn on country boundaries
   res@mpGeophysicalLineColor      = "Navy"       ; color of cont. outlines
   res@mpGeophysicalLineThicknessF = 1.5          ; thickness of outlines
 
