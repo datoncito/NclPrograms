@@ -1,7 +1,7 @@
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
 begin
-  wks  = gsn_open_wks("pdf","maponly")            ; open a ps file
+  wks  = gsn_open_wks("pdf","campitos-ley1")            ; open a ps file
 
 
   res                             = True
