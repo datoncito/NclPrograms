@@ -16,10 +16,10 @@ begin
   res@mpMinLonF                   = 90
   plot = gsn_csm_map_ce(wks,res)                 ; draw map
 
-  res@mpMaxLatF                   = 90           ; choose a different subregion
+  res@mpMaxLatF                   = 38           ; choose a different subregion
   res@mpMinLatF                   = 10
-  res@mpMaxLonF                   = 70
-  res@mpMinLonF                   = 0
+  res@mpMaxLonF                   = -80
+  res@mpMinLonF                   = -120
 
   plot = gsn_csm_map_ce(wks,res)                 ; draw map
 
